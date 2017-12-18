@@ -35,7 +35,7 @@ public extension SideMenuController {
     /**
      Toggles the side pannel visible or not.
      */
-    public func toggle() {
+    @objc public func toggle() {
         
         if !transitionInProgress {
             if !sidePanelVisible {
